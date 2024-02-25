@@ -16,6 +16,11 @@ body {
   min-height: 100vh;
 }
 
+table {
+  border-collapse: separate; /* Ensure that cells are separated */
+  border-spacing: 20px; /* Set the spacing between cells */
+}
+
 th {
   width: 120px;
   padding-top: 25px;
@@ -24,8 +29,46 @@ th {
 
 td {
   padding: 5px;
+  margin: 10px;
 }
 
 .time {
   height: 40px;
+}
+
+.Event {
+  width: 100px;
+}
+
+.green {
+  background-color: greenyellow;
+}
+
+.lightbrown {
+  background-color: rgb(228, 152, 90);
+}
+
+.brown {
+  background-color: brown;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: rgb(75, 75, 200);
+}
+
+.ash {
+  background-color: rgba(57, 56, 56, 0.505);
+}
+.purple {
+  background-color: rgb(146, 65, 146);
+}
+.orange {
+  background-color: orange;
+}
+.yellow {
+  background-color: yellow;
 }

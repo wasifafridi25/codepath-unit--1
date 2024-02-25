@@ -4,7 +4,7 @@ import Calendar from "./components/Calendar";
 const App = () => {
   return (
     <div className="App">
-      <h1>Itinerary for 7 days in Chicago</h1>
+      <h1>Itinerary for 7 days in Chicago 🏙</h1>
       <h2>
         Welcome to Chicago, Wasif! Check out this calendar to get to know the
         city and see all the sights during your stay.
