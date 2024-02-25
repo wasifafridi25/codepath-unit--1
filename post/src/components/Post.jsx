@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Post() {
+export default function Post({ name, description, likes }) {
   return (
-    <section style={{ border: "3px solid red" }}>
-      <h3>Bhuiyan Shadman Wasif</h3>
-      <h4>I want to learn the power of students</h4>
-      <p>Rating: 0</p>
+    <section style={{ border: "3px solid red", marginBottom: '12px' }}>
+      <h3>{name}</h3>
+      <h4>{description}</h4>
+      <p>Rating: {likes}</p>
     </section>
   );
 }
